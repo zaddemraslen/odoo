@@ -1,0 +1,366 @@
+ID_Ressource,Nom_Ressource,Type,Stock_Disponible
+1,Câbles électriques,Composant,1953
+3,Capteurs,Composant,1311
+4,Connecteurs,Composant,3803
+5,Connecteurs,Composant,1255
+10,Capteurs,Composant,4562
+15,Capteurs,Composant,2799
+25,Capteurs,Composant,1590
+26,Câbles électriques,Composant,2433
+28,Capteurs,Composant,2408
+29,Connecteurs,Composant,2396
+30,Connecteurs,Composant,2383
+35,Capteurs,Composant,2320
+40,Capteurs,Composant,2258
+50,Capteurs,Composant,2133
+51,Câbles électriques,Composant,2120
+53,Capteurs,Composant,2095
+54,Connecteurs,Composant,2083
+55,Connecteurs,Composant,2070
+60,Capteurs,Composant,2008
+65,Capteurs,Composant,1945
+75,Capteurs,Composant,1820
+76,Câbles électriques,Composant,1807
+78,Capteurs,Composant,1782
+79,Connecteurs,Composant,1770
+80,Connecteurs,Composant,1757
+85,Capteurs,Composant,1695
+90,Capteurs,Composant,1632
+100,Capteurs,Composant,1507
+101,Câbles électriques,Composant,1495
+103,Capteurs,Composant,1470
+104,Connecteurs,Composant,1457
+105,Connecteurs,Composant,1444
+110,Capteurs,Composant,1382
+115,Capteurs,Composant,1319
+125,Capteurs,Composant,1194
+126,Câbles électriques,Composant,1182
+128,Capteurs,Composant,1157
+129,Connecteurs,Composant,1144
+130,Connecteurs,Composant,1132
+135,Capteurs,Composant,1069
+140,Capteurs,Composant,1007
+150,Capteurs,Composant,881
+151,Câbles électriques,Composant,869
+153,Capteurs,Composant,844
+154,Connecteurs,Composant,831
+155,Connecteurs,Composant,819
+160,Capteurs,Composant,756
+165,Capteurs,Composant,694
+175,Capteurs,Composant,569
+176,Câbles électriques,Composant,556
+178,Capteurs,Composant,531
+179,Connecteurs,Composant,518
+180,Connecteurs,Composant,506
+185,Capteurs,Composant,443
+190,Capteurs,Composant,381
+200,Capteurs,Composant,256
+201,Câbles électriques,Composant,243
+203,Capteurs,Composant,218
+204,Connecteurs,Composant,206
+205,Connecteurs,Composant,193
+210,Capteurs,Composant,131
+215,Capteurs,Composant,68
+225,Capteurs,Composant,-57
+226,Câbles électriques,Composant,-70
+228,Capteurs,Composant,-95
+229,Connecteurs,Composant,-107
+230,Connecteurs,Composant,-120
+235,Capteurs,Composant,-182
+240,Capteurs,Composant,-245
+250,Capteurs,Composant,-370
+251,Câbles électriques,Composant,-383
+253,Capteurs,Composant,-408
+254,Connecteurs,Composant,-420
+255,Connecteurs,Composant,-433
+260,Capteurs,Composant,-495
+265,Capteurs,Composant,-558
+275,Capteurs,Composant,-683
+276,Câbles électriques,Composant,-695
+278,Capteurs,Composant,-720
+279,Connecteurs,Composant,-733
+280,Connecteurs,Composant,-745
+285,Capteurs,Composant,-808
+290,Capteurs,Composant,-871
+300,Capteurs,Composant,-996
+301,Câbles électriques,Composant,-1008
+303,Capteurs,Composant,-1033
+304,Connecteurs,Composant,-1046
+305,Connecteurs,Composant,-1058
+310,Capteurs,Composant,-1121
+315,Capteurs,Composant,-1183
+325,Capteurs,Composant,-1309
+326,Câbles électriques,Composant,-1321
+328,Capteurs,Composant,-1346
+329,Connecteurs,Composant,-1359
+330,Connecteurs,Composant,-1371
+335,Capteurs,Composant,-1434
+340,Capteurs,Composant,-1496
+350,Capteurs,Composant,-1621
+351,Câbles électriques,Composant,-1634
+353,Capteurs,Composant,-1659
+354,Connecteurs,Composant,-1671
+355,Connecteurs,Composant,-1684
+360,Capteurs,Composant,-1747
+2,Connecteurs,Matériel,1472
+6,Capteurs,Matériel,3507
+8,Cartes PCB,Matériel,4760
+12,Cartes PCB,Matériel,3524
+14,Cartes PCB,Matériel,4339
+17,Cartes PCB,Matériel,4350
+19,Câbles électriques,Matériel,1139
+20,Câbles électriques,Matériel,1036
+27,Connecteurs,Matériel,2421
+31,Capteurs,Matériel,2371
+33,Cartes PCB,Matériel,2345
+37,Cartes PCB,Matériel,2295
+39,Cartes PCB,Matériel,2270
+42,Cartes PCB,Matériel,2233
+44,Câbles électriques,Matériel,2208
+45,Câbles électriques,Matériel,2195
+52,Connecteurs,Matériel,2108
+56,Capteurs,Matériel,2058
+58,Cartes PCB,Matériel,2033
+62,Cartes PCB,Matériel,1983
+64,Cartes PCB,Matériel,1958
+67,Cartes PCB,Matériel,1920
+69,Câbles électriques,Matériel,1895
+70,Câbles électriques,Matériel,1882
+77,Connecteurs,Matériel,1795
+81,Capteurs,Matériel,1745
+83,Cartes PCB,Matériel,1720
+87,Cartes PCB,Matériel,1670
+89,Cartes PCB,Matériel,1645
+92,Cartes PCB,Matériel,1607
+94,Câbles électriques,Matériel,1582
+95,Câbles électriques,Matériel,1570
+102,Connecteurs,Matériel,1482
+106,Capteurs,Matériel,1432
+108,Cartes PCB,Matériel,1407
+112,Cartes PCB,Matériel,1357
+114,Cartes PCB,Matériel,1332
+117,Cartes PCB,Matériel,1294
+119,Câbles électriques,Matériel,1269
+120,Câbles électriques,Matériel,1257
+127,Connecteurs,Matériel,1169
+131,Capteurs,Matériel,1119
+133,Cartes PCB,Matériel,1094
+137,Cartes PCB,Matériel,1044
+139,Cartes PCB,Matériel,1019
+142,Cartes PCB,Matériel,981
+144,Câbles électriques,Matériel,956
+145,Câbles électriques,Matériel,944
+152,Connecteurs,Matériel,856
+156,Capteurs,Matériel,806
+158,Cartes PCB,Matériel,781
+162,Cartes PCB,Matériel,731
+164,Cartes PCB,Matériel,706
+167,Cartes PCB,Matériel,669
+169,Câbles électriques,Matériel,644
+170,Câbles électriques,Matériel,631
+177,Connecteurs,Matériel,543
+181,Capteurs,Matériel,493
+183,Cartes PCB,Matériel,468
+187,Cartes PCB,Matériel,418
+189,Cartes PCB,Matériel,393
+192,Cartes PCB,Matériel,356
+194,Câbles électriques,Matériel,331
+195,Câbles électriques,Matériel,318
+202,Connecteurs,Matériel,231
+206,Capteurs,Matériel,181
+208,Cartes PCB,Matériel,156
+212,Cartes PCB,Matériel,106
+214,Cartes PCB,Matériel,80
+217,Cartes PCB,Matériel,43
+219,Câbles électriques,Matériel,18
+220,Câbles électriques,Matériel,5
+227,Connecteurs,Matériel,-82
+231,Capteurs,Matériel,-132
+233,Cartes PCB,Matériel,-157
+237,Cartes PCB,Matériel,-207
+239,Cartes PCB,Matériel,-232
+242,Cartes PCB,Matériel,-270
+244,Câbles électriques,Matériel,-295
+245,Câbles électriques,Matériel,-307
+252,Connecteurs,Matériel,-395
+256,Capteurs,Matériel,-445
+258,Cartes PCB,Matériel,-470
+262,Cartes PCB,Matériel,-520
+264,Cartes PCB,Matériel,-545
+267,Cartes PCB,Matériel,-583
+269,Câbles électriques,Matériel,-608
+270,Câbles électriques,Matériel,-620
+277,Connecteurs,Matériel,-708
+281,Capteurs,Matériel,-758
+283,Cartes PCB,Matériel,-783
+287,Cartes PCB,Matériel,-833
+289,Cartes PCB,Matériel,-858
+292,Cartes PCB,Matériel,-896
+294,Câbles électriques,Matériel,-921
+295,Câbles électriques,Matériel,-933
+302,Connecteurs,Matériel,-1021
+306,Capteurs,Matériel,-1071
+308,Cartes PCB,Matériel,-1096
+312,Cartes PCB,Matériel,-1146
+314,Cartes PCB,Matériel,-1171
+317,Cartes PCB,Matériel,-1208
+319,Câbles électriques,Matériel,-1233
+320,Câbles électriques,Matériel,-1246
+327,Connecteurs,Matériel,-1334
+331,Capteurs,Matériel,-1384
+333,Cartes PCB,Matériel,-1409
+337,Cartes PCB,Matériel,-1459
+339,Cartes PCB,Matériel,-1484
+342,Cartes PCB,Matériel,-1521
+344,Câbles électriques,Matériel,-1546
+345,Câbles électriques,Matériel,-1559
+352,Connecteurs,Matériel,-1646
+356,Capteurs,Matériel,-1696
+358,Cartes PCB,Matériel,-1722
+362,Cartes PCB,Matériel,-1772
+364,Cartes PCB,Matériel,-1797
+365,Cartes PCB,Matériel,-1796
+7,Cartes PCB,Outil,1829
+9,Câbles électriques,Outil,4313
+11,Câbles électriques,Outil,1773
+13,Capteurs,Outil,1814
+16,Capteurs,Outil,1241
+18,Cartes PCB,Outil,1787
+21,Connecteurs,Outil,1794
+22,Cartes PCB,Outil,1659
+23,Capteurs,Outil,4500
+24,Connecteurs,Outil,2784
+32,Cartes PCB,Outil,2358
+34,Câbles électriques,Outil,2333
+36,Câbles électriques,Outil,2308
+38,Capteurs,Outil,2283
+41,Capteurs,Outil,2245
+43,Cartes PCB,Outil,2220
+46,Connecteurs,Outil,2183
+47,Cartes PCB,Outil,2170
+48,Capteurs,Outil,2158
+49,Connecteurs,Outil,2145
+57,Cartes PCB,Outil,2045
+59,Câbles électriques,Outil,2020
+61,Câbles électriques,Outil,1995
+63,Capteurs,Outil,1970
+66,Capteurs,Outil,1933
+68,Cartes PCB,Outil,1907
+71,Connecteurs,Outil,1870
+72,Cartes PCB,Outil,1857
+73,Capteurs,Outil,1845
+74,Connecteurs,Outil,1832
+82,Cartes PCB,Outil,1732
+84,Câbles électriques,Outil,1707
+86,Câbles électriques,Outil,1682
+88,Capteurs,Outil,1657
+91,Capteurs,Outil,1620
+93,Cartes PCB,Outil,1595
+96,Connecteurs,Outil,1557
+97,Cartes PCB,Outil,1545
+98,Capteurs,Outil,1532
+99,Connecteurs,Outil,1520
+107,Cartes PCB,Outil,1419
+109,Câbles électriques,Outil,1394
+111,Câbles électriques,Outil,1369
+113,Capteurs,Outil,1344
+116,Capteurs,Outil,1307
+118,Cartes PCB,Outil,1282
+121,Connecteurs,Outil,1244
+122,Cartes PCB,Outil,1232
+123,Capteurs,Outil,1219
+124,Connecteurs,Outil,1207
+132,Cartes PCB,Outil,1107
+134,Câbles électriques,Outil,1082
+136,Câbles électriques,Outil,1057
+138,Capteurs,Outil,1032
+141,Capteurs,Outil,994
+143,Cartes PCB,Outil,969
+146,Connecteurs,Outil,931
+147,Cartes PCB,Outil,919
+148,Capteurs,Outil,906
+149,Connecteurs,Outil,894
+157,Cartes PCB,Outil,794
+159,Câbles électriques,Outil,769
+161,Câbles électriques,Outil,744
+163,Capteurs,Outil,719
+166,Capteurs,Outil,681
+168,Cartes PCB,Outil,656
+171,Connecteurs,Outil,619
+172,Cartes PCB,Outil,606
+173,Capteurs,Outil,594
+174,Connecteurs,Outil,581
+182,Cartes PCB,Outil,481
+184,Câbles électriques,Outil,456
+186,Câbles électriques,Outil,431
+188,Capteurs,Outil,406
+191,Capteurs,Outil,368
+193,Cartes PCB,Outil,343
+196,Connecteurs,Outil,306
+197,Cartes PCB,Outil,293
+198,Capteurs,Outil,281
+199,Connecteurs,Outil,268
+207,Cartes PCB,Outil,168
+209,Câbles électriques,Outil,143
+211,Câbles électriques,Outil,118
+213,Capteurs,Outil,93
+216,Capteurs,Outil,55
+218,Cartes PCB,Outil,30
+221,Connecteurs,Outil,-7
+222,Cartes PCB,Outil,-20
+223,Capteurs,Outil,-32
+224,Connecteurs,Outil,-45
+232,Cartes PCB,Outil,-145
+234,Câbles électriques,Outil,-170
+236,Câbles électriques,Outil,-195
+238,Capteurs,Outil,-220
+241,Capteurs,Outil,-257
+243,Cartes PCB,Outil,-282
+246,Connecteurs,Outil,-320
+247,Cartes PCB,Outil,-332
+248,Capteurs,Outil,-345
+249,Connecteurs,Outil,-358
+257,Cartes PCB,Outil,-458
+259,Câbles électriques,Outil,-483
+261,Câbles électriques,Outil,-508
+263,Capteurs,Outil,-533
+266,Capteurs,Outil,-570
+268,Cartes PCB,Outil,-595
+271,Connecteurs,Outil,-633
+272,Cartes PCB,Outil,-645
+273,Capteurs,Outil,-658
+274,Connecteurs,Outil,-670
+282,Cartes PCB,Outil,-770
+284,Câbles électriques,Outil,-795
+286,Câbles électriques,Outil,-821
+288,Capteurs,Outil,-846
+291,Capteurs,Outil,-883
+293,Cartes PCB,Outil,-908
+296,Connecteurs,Outil,-946
+297,Cartes PCB,Outil,-958
+298,Capteurs,Outil,-971
+299,Connecteurs,Outil,-983
+307,Cartes PCB,Outil,-1083
+309,Câbles électriques,Outil,-1108
+311,Câbles électriques,Outil,-1133
+313,Capteurs,Outil,-1158
+316,Capteurs,Outil,-1196
+318,Cartes PCB,Outil,-1221
+321,Connecteurs,Outil,-1259
+322,Cartes PCB,Outil,-1271
+323,Capteurs,Outil,-1284
+324,Connecteurs,Outil,-1296
+332,Cartes PCB,Outil,-1396
+334,Câbles électriques,Outil,-1421
+336,Câbles électriques,Outil,-1446
+338,Capteurs,Outil,-1471
+341,Capteurs,Outil,-1509
+343,Cartes PCB,Outil,-1534
+346,Connecteurs,Outil,-1571
+347,Cartes PCB,Outil,-1584
+348,Capteurs,Outil,-1596
+349,Connecteurs,Outil,-1609
+357,Cartes PCB,Outil,-1709
+359,Câbles électriques,Outil,-1734
+361,Câbles électriques,Outil,-1759
+363,Capteurs,Outil,-1784

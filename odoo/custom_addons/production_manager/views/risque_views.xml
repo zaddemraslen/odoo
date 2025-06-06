@@ -1,0 +1,45 @@
+<odoo>
+    <record id="view_risque_list" model="ir.ui.view">
+        <field name="name">production.manager.risque.list</field>
+        <field name="model">production.manager.risque</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="type_id"/>
+                <field name="gravite"/>
+                <field name="impact"/>
+                <field name="create_date"/>
+                <field name="write_date"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_risque_form" model="ir.ui.view">
+        <field name="name">production.manager.risque.form</field>
+        <field name="model">production.manager.risque</field>
+        <field name="arch" type="xml">
+            <form string="Risque">
+                <sheet>
+                    <group>
+                        <field name="type_id"/>
+                        <field name="gravite"/>
+                        <field name="impact"/>
+                        <field name="mesures_prises"/>
+                        <field name="create_date" readonly="1"/>
+                        <field name="write_date" readonly="1"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_risque" model="ir.actions.act_window">
+        <field name="name">Risques</field>
+        <field name="res_model">production.manager.risque</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <menuitem id="menu_risque"
+              name="Risques"
+              parent="menu_production_root"
+              action="action_risque"/>
+</odoo>

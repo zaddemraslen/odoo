@@ -1,0 +1,40 @@
+<odoo>
+<record id="view_stock_list" model="ir.ui.view">
+    <field name="name">production.manager.stock.list</field>
+    <field name="model">production.manager.stock</field>
+    <field name="arch" type="xml">
+        <list>
+            <field name="produit"/>
+            <field name="quantite_disponible"/>
+            <field name="lieu_stockage"/>
+            <field name="type_matiere"/>
+        </list>
+    </field>
+</record>
+
+<record id="view_stock_form" model="ir.ui.view">
+    <field name="name">production.manager.stock.form</field>
+    <field name="model">production.manager.stock</field>
+    <field name="arch" type="xml">
+        <form string="Stock de Production">
+            <group>
+                <field name="produit"/>
+                <field name="quantite_disponible"/>
+                <field name="lieu_stockage"/>
+                <field name="type_matiere"/>
+            </group>
+        </form>
+    </field>
+</record>
+
+<record id="action_stock" model="ir.actions.act_window">
+    <field name="name">Stocks</field>
+    <field name="res_model">production.manager.stock</field>
+    <field name="view_mode">list,form</field>
+</record>
+
+<menuitem id="menu_stock"
+          name="Stocks"
+          parent="menu_production_root"
+          action="action_stock"/>
+</odoo>

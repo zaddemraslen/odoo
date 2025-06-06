@@ -1,0 +1,22 @@
+<odoo>
+    <data noupdate="1">
+        <record id="machine_type_assemblage" model="production.manager.machine.type">
+            <field name="name">Assemblage</field>
+        </record>
+        <record id="machine_type_decoupe" model="production.manager.machine.type">
+            <field name="name">Découpe</field>
+        </record>
+        <record id="machine_type_enroulement" model="production.manager.machine.type">
+            <field name="name">Enroulement</field>
+        </record>
+        <record id="machine_type_presse" model="production.manager.machine.type">
+            <field name="name">Presse</field>
+        </record>
+        <record id="machine_type_soudure" model="production.manager.machine.type">
+            <field name="name">Soudure</field>
+        </record>
+        <record id="machine_type_test" model="production.manager.machine.type">
+            <field name="name">Test</field>
+        </record>
+    </data>
+</odoo>

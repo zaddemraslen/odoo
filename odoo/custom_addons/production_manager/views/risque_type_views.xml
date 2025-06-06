@@ -1,0 +1,40 @@
+<odoo>
+    <record id="view_risque_type_list" model="ir.ui.view">
+        <field name="name">production.manager.risque.type.list</field>
+        <field name="model">production.manager.risque.type</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name"/>
+                <field name="create_date"/>
+                <field name="write_date"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_risque_type_form" model="ir.ui.view">
+        <field name="name">production.manager.risque.type.form</field>
+        <field name="model">production.manager.risque.type</field>
+        <field name="arch" type="xml">
+            <form string="Type de Risque">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="create_date" readonly="1"/>
+                        <field name="write_date" readonly="1"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_risque_type" model="ir.actions.act_window">
+        <field name="name">Types de Risques</field>
+        <field name="res_model">production.manager.risque.type</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <menuitem id="menu_risque_type"
+              name="Types de Risques"
+              parent="menu_production_root"
+              action="action_risque_type"/>
+</odoo>

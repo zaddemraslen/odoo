@@ -1,0 +1,17 @@
+<odoo>
+    <record id="risque_type_chimique" model="production.manager.risque.type">
+        <field name="name">Chimique</field>
+    </record>
+    <record id="risque_type_electrique" model="production.manager.risque.type">
+        <field name="name">Électrique</field>
+    </record>
+    <record id="risque_type_environnemental" model="production.manager.risque.type">
+        <field name="name">Environnemental</field>
+    </record>
+    <record id="risque_type_ergonomique" model="production.manager.risque.type">
+        <field name="name">Ergonomique</field>
+    </record>
+    <record id="risque_type_mecanique" model="production.manager.risque.type">
+        <field name="name">Mécanique</field>
+    </record>
+</odoo>

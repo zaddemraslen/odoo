@@ -1,0 +1,57 @@
+<odoo>
+    <record id="view_commande_list" model="ir.ui.view">
+        <field name="name">production.manager.commande.list</field>
+        <field name="model">production.manager.commande</field>
+        <field name="arch" type="xml">
+            <list string="Commandes">
+                <field name="client"/>
+                <field name="produit_commande"/>
+                <field name="quantite"/>
+                <field name="statut"/>
+                <field name="date_commande"/>
+                <field name="create_date"/>
+                <field name="write_date"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_commande_form" model="ir.ui.view">
+        <field name="name">production.manager.commande.form</field>
+        <field name="model">production.manager.commande</field>
+        <field name="arch" type="xml">
+            <form string="Commande">
+                <group>
+                    <field name="client"/>
+                    <field name="produit_commande"/>
+                    <field name="quantite"/>
+                    <field name="statut"/>
+                    <field name="date_commande"/>
+                </group>
+                <notebook>
+                    <page string="Productions">
+                        <field name="production_ids">
+                            <list>
+                                <field name="produit"/>
+                                <field name="quantite"/>
+                                <field name="statut"/>
+                                <field name="date_production"/>
+                            </list>
+                        </field>
+                    </page>
+                </notebook>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_commande" model="ir.actions.act_window">
+        <field name="name">Commandes</field>
+        <field name="res_model">production.manager.commande</field>
+        <field name="view_mode">list,form</field>
+    </record>
+    <menuitem id="menu_commande"
+              name="Commandes"
+              parent="menu_production_root"
+              action="action_commande"/>
+</odoo>
+
+

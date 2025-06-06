@@ -1,0 +1,17 @@
+<odoo>
+    <record id="resource_type_composant" model="production.manager.resource.type">
+        <field name="name">Composant</field>
+    </record>
+
+    <record id="resource_type_materiel" model="production.manager.resource.type">
+        <field name="name">Matériel</field>
+    </record>
+
+    <record id="resource_type_outil" model="production.manager.resource.type">
+        <field name="name">Outil</field>
+    </record>
+
+    <record id="resource_type_plus" model="production.manager.resource.type">
+        <field name="name">Plus</field>
+    </record>
+</odoo>

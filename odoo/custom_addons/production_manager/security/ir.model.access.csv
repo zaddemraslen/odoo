@@ -1,0 +1,12 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_resource,Ressource,model_production_manager_resource,,1,1,1,1
+access_resource_type,Type de Ressource,model_production_manager_resource_type,,1,1,1,1
+access_machine_type,access_machine_type,model_production_manager_machine_type,,1,1,1,1
+access_machine,access_machine,model_production_manager_machine,,1,1,1,1
+access_risque_type,access_risque_type,model_production_manager_risque_type,,1,1,1,1
+access_risque,access_risque,model_production_manager_risque,,1,1,1,1
+access_commande,access.commande,model_production_manager_commande,,1,1,1,1
+access_production,access.production,model_production_manager_production,,1,1,1,1
+access_equipe,Équipe,model_production_manager_equipe,,1,1,1,1
+access_production_phase,Phase de Production,model_production_manager_phase,,1,1,1,1
+access_production_stock,Stock de Production,model_production_manager_stock,,1,1,1,1

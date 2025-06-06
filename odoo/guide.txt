@@ -1,0 +1,8 @@
+    odooV\Scripts\activate.bat
+    python odoo-bin -c odoo.config -d odoodb --stop-after-init
+    python odoo-bin -c odoo.config -d odoodb -i base
+    activate developer mode mel settingspyth
+    activate module (production_manager)
+
+https://nginx.org/en/download.html
+version 

@@ -1,0 +1,67 @@
+.ticker-wrapper {
+  overflow: hidden;
+  white-space: nowrap;
+  background: #f8d7da;
+  padding: 8px;
+  /*border: 3px solid #842029;*/
+  border-radius: 0px;
+  position: relative;
+  box-shadow: inset 20px 0 20px -20px rgb(59, 4, 4, 0.7), inset -20px 0 20px -20px rgb(59, 4, 4);
+}
+
+
+.ticker-wrapper::before,
+.ticker-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.ticker-wrapper::before {
+  left: 0;
+  background: linear-gradient(to right, #f8d7da, rgba(248, 215, 218, 0));
+}
+
+.ticker-wrapper::after {
+  right: 0;
+  background: linear-gradient(to left, #f8d7da, rgba(248, 215, 218, 0));
+}
+
+.ticker-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 20s linear infinite;
+}
+
+.ticker-item {
+  display: inline-block;
+  margin-right: 50px;
+  font-weight: bold;
+  color: #842029;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-110%);
+  }
+}
+
+.expanded-list {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px; /* space between items */
+}
+
+.ticker-spacer {
+  display: inline-block;
+  width: 50px; /* ou la largeur que tu veux */
+}
